@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/users/
+Content-Type: application/json
+###
+POST http://localhost:5000/api/users/
+Content-Type: application/json
+
+
+   {
+    "status": "Validé",
+    "firstName": 1254,
+    "lastName": "aaaa",
+    "userName": "ccccc",
+    "registrationNumber": "4444444",
+     "createdDate":"12/08/2021"
+
+  }
+###
+PUT  http://localhost:5000/api/users/6105eaa84481532e70a4b96b
+Content-Type: application/json
+
+
+    {
+      "firstName": "mourad",
+      "lastName": "mourad",
+      "status": "En validation",
+      "userName": "Allaa Hamza",
+      "registrationNumber": "md45845",
+      "createdDate": "2021-08-17T23:00:00.000Z"
+    }
+####
+DELETE   http://localhost:5000/api/users/6105eaa84481532e70a4b96b
+Content-Type: application/json
+
